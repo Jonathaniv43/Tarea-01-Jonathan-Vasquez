@@ -4,7 +4,7 @@ segundos. Se desea saber el tiempo total utilizado por ambos atletas en horas, m
 y segundos.
 */
 
-console.log('Timepo de los Altletas');
+console.log('Tiempo de los Altletas');
 
 atleta1Minutos = parseInt(prompt ('Ingrese los minutos (PRIMER ATLETA)'));
 atleta1Segundos= parseInt(prompt ('Ingrese los segundos (PRIMER ATLETA)'));
