@@ -2,7 +2,7 @@
 console.log('Bienvenido - Le ayudaremos a sumar 2 Numeros');
 
 let num1 = parseFloat(prompt ('Digite el primer numero a Sumar'));
-let num2 = parseFloat(prompt ('Digite el segundo numero'));
+let num2 = parseFloat(prompt ('Digite el segundo numero a sumar'));
 
 let suma= num1+num2;
 
