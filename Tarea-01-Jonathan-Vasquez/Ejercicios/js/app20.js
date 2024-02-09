@@ -6,10 +6,11 @@ combustible por kilómetro.
 
 */
 
-console.log('Autonomia de un Automobil');
+console.log('Autonomia de un Automóvil');
 
 let kilometraje = parseFloat(prompt('Ingrese los Kilometros Recorridos'));
 let combustble = parseFloat (prompt('Ingrese litros consumidos'));
 
 let autonomia = combustble/kilometraje
-console.log(`Su automobil gasta un promedio de ${autonomia.toFixed(2)} km/lt o ${autonomia*100} ltrs cada 100km`);
+console.log(`Su automóvil gasta un promedio de ${autonomia.toFixed(2)} km/lt
+ o ${(autonomia*100).toFixed(2)} ltrs cada 100km`);

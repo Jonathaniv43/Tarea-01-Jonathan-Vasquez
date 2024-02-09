@@ -21,16 +21,16 @@ convertir(sumaPies);
 function convertir(sumaPies) {
     // convertir la suma a pulgadas
     let sumaPulgadas = sumaPies*12;
-    console.log(`La suma de ambas medidas en -Pulgadas- equivale a ${sumaPulgadas.toFixed(3)}`);
+    console.log(`La suma de ambas medidas en -PULGADAS- equivale a ${sumaPulgadas.toFixed(3)}`);
     // convertir suma a Yarda
     let sumaYarda = sumaPies/3;
-    console.log(`La suma de ambas medidas en -Yardas- equivale a ${sumaYarda.toFixed(3)}`);
+    console.log(`La suma de ambas medidas en -YARDAS- equivale a ${sumaYarda.toFixed(3)}`);
     // convertir suma a Metros
     let sumaMetros = sumaPulgadas*0.0254;
-    console.log(`La suma de ambas medidas en -Metros- equivale a ${sumaMetros.toFixed(3)}`);
+    console.log(`La suma de ambas medidas en -METROS- equivale a ${sumaMetros.toFixed(3)}`);
     // convertir suma a Metros
     let sumaMillas = sumaMetros/1609;
-    console.log(`La suma de ambas medidas en -Millas- equivale a ${sumaMillas.toFixed(3)} `);
+    console.log(`La suma de ambas medidas en -MILLAS- equivale a ${sumaMillas.toFixed(3)} `);
     
 }
 

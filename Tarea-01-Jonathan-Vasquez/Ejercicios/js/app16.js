@@ -26,20 +26,29 @@ totalMinutos = convertirMinutos(minutos,segundos);
 console.log(`El tiempo en "MINUTOS" del -PRIMER ATLETA- 
 es de ${totalMinutos .toFixed(2)}`);
 totalSegundos = convertirSegundos(minutos,segundos);
+let tiempo1 = totalSegundos;
 console.log(`El tiempo en "SEGUNDOS" del -PRIMER ATLETA- 
 es de ${totalSegundos .toFixed(2)}`);
 // Segundo Atleta 
 minutos = atleta2Minutos;
 segundos = atleta2Segundos;
 totalHoras = convertirHoras(minutos,segundos);
-console.log(`El tiempo en "HORAS" del -SEGUNDO ATLETA- 
+console.log(`\nEl tiempo en "HORAS" del -SEGUNDO ATLETA- 
 es de ${totalHoras .toFixed(2)}`);
 totalMinutos = convertirMinutos(minutos,segundos);
 console.log(`El tiempo en "MINUTOS" del -SEGUNDO ATLETA- 
 es de ${totalMinutos .toFixed(2)}`);
 totalSegundos = convertirSegundos(minutos,segundos);
+let tiempo2 = totalSegundos;
 console.log(`El tiempo en "SEGUNDOS" del -PRIMER ATLETA- 
 es de ${totalSegundos .toFixed(2)}`);
+
+if (tiempo1 < tiempo2) {
+    console.log('EL PRIMER ATLETA TUVO UN MEJOR TIEMPO');
+    
+} else {
+    console.log('EL SEGUNDO ATLETA TUVO UN MEJOR TIEMPO');
+}
 
 function convertirHoras(minutos,segundos) {
     let segudosMinutos;

@@ -21,21 +21,21 @@ do {
     switch (decision) {
         case 1: 
             num1 = parseFloat(prompt ('Digite el primer numero a Sumar'));
-            num2 = parseFloat(prompt ('Digite el segundo numero'));
+            num2 = parseFloat(prompt ('Digite el segundo numero a Sumar'));
         
             resultado= num1+num2;
             console.log(`La suma de ${num1} y ${num2} nos da un resultado de ${resultado}`);
             
             break;
         case 2:
-            num1 = parseFloat(prompt('Ingrese el primer valor'));
-            num2 = parseFloat(prompt('Ingrese el segundo valor'));
+            num1 = parseFloat(prompt('Ingrese el primer valor a Restar'));
+            num2 = parseFloat(prompt('Ingrese el segundo valor a Restar'));
             resultado = num1-num2;
             console.log(`La diferencia entre ${num1} y ${num2} es ${resultado}`);
             break;
         case 3:
-            num1 = parseFloat(prompt('Ingrese el primer valor'));
-            num2 = parseFloat(prompt('Ingrese el Segundo valor'));
+            num1 = parseFloat(prompt('Ingrese el primer valor a Multiplicar'));
+            num2 = parseFloat(prompt('Ingrese el Segundo valor a Multiplicar'));
     
             resultado = num1 * num2;
             console.log(`El Producto de ${num1} y ${num2} es igual a ${resultado}`);
